@@ -14,6 +14,15 @@ docker run --name openfire -d --restart=always \
   sameersbn/openfire:3.10.3-19
 ```
 
+## Blowfish.java
+
+
+`openfire.jar/org/jivesoftware/util/Blowfish.java`
+
+![](./images/Blowfish)
+
+## 界面展示
+
 ![](./images/logo.png)
 
 ![](./images/install.png)
