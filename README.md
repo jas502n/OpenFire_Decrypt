@@ -19,7 +19,8 @@ docker run --name openfire -d --restart=always \
 
 `openfire.jar/org/jivesoftware/util/Blowfish.java`
 
-![](./images/Blowfish)
+![](./images/Blowfish.png)
+
 
 ## 界面展示
 
