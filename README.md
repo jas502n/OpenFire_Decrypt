@@ -1,6 +1,19 @@
 # OpenFire_Decrypt
 OpenFire 管理后台账号密码解密
 
+
+## install openfire
+https://hub.docker.com/r/sameersbn/openfire
+
+`docker pull sameersbn/openfire:3.10.3-19`
+
+```
+docker run --name openfire -d --restart=always \
+  --publish 9090:9090 --publish 5222:5222 --publish 7777:7777 \
+  --volume /srv/docker/openfire:/var/lib/openfire \
+  sameersbn/openfire:3.10.3-19
+```
+
 ![](./images/logo.png)
 
 ![](./images/install.png)
