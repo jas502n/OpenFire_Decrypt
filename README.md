@@ -26,7 +26,13 @@ String encryptedPassword = "cef7d1faf10db55cdd43847c9869da627674cda780275756";
 String passwordKey = "QWMRc9f3X9t2BN0";
 ```
 
+## Decrypt
+
+`mvn clean package -DskipTests`
+
 ![](./images/decrypt.png)
+
+
 
 ## 参考链接：
 
